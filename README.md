@@ -1,0 +1,4 @@
+# Express.js Bug: Incorrect Array Access and Missing Error Handling
+This repository demonstrates a common error in Express.js applications: incorrect array access and missing error handling when dealing with route parameters.
+The `bug.js` file contains the buggy code, which attempts to access an array using a string index. This can lead to unexpected behavior or errors if the provided ID is invalid or not present in the array. It also lacks proper error handling for invalid input.
+The `bugSolution.js` file provides a corrected version of the code, addressing these issues. It checks for the existence of the userId and handles invalid inputs or missing users gracefully.
